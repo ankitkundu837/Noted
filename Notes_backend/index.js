@@ -6,8 +6,8 @@ const ejs = require('ejs')
 const mongoose = require('mongoose')
 const cookieParser = require('cookie-parser')
 
-const PORT = process.env.PORT;
-const URL = process.env.URL;
+const PORT = process.env.PORT || 8001;
+const URL ="mongodb://127.0.0.1:27017/To-Do-List";
 
 mongoose.connect(URL)
 .then((e)=> console.log("MongoDB Connected"))
