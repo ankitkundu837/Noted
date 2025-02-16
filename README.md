@@ -1,4 +1,4 @@
-# Noteit
+# Noted
 
 A full-stack **note-taking application** built with **React (Frontend)** and **Node.js + Express (Backend)**. Users can securely create, edit, and manage their notes with authentication.
 
@@ -16,7 +16,7 @@ A full-stack **note-taking application** built with **React (Frontend)** and **N
 
 ## 📂 Folder Structure
 ```
-Noteit/
+Noted/
 ├── frontend/        # React frontend
 ├── Notes_backend/        # Node.js backend
 ├── README.md      # Project documentation
@@ -26,8 +26,8 @@ Noteit/
 ## 🎯 Setup Instructions
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/ankitkundu837/Noteit.git
-cd Noteit
+git clone https://github.com/ankitkundu837/Noted.git
+cd Noted
 ```
 
 ### 2️⃣ Backend Setup (Server)
